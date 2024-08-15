@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">wb_tennis_app</string>
+
+    <string-array name="court_types">
+        <item>Grass</item>
+        <item>Hard</item>
+        <item>Artificial</item>
+    </string-array>
+
+    <string-array name="durations">
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+    </string-array>
+
+    <string name="about_us">
+
+    </string>
+
+</resources>

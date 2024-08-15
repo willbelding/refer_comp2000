@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scheme 1 Colors -->
+    <color name="scheme1PrimaryColor">#148716</color>
+    <color name="scheme1SecondaryColor">#FFFFFF</color>
+    <color name="scheme1ThirdColor">#4C0B70</color>
+
+    <!-- Scheme 2 Colors -->
+    <color name="scheme2PrimaryColor">#FFFFFF</color>
+    <color name="scheme2SecondaryColor">#000000</color>
+    <color name="scheme2ThirdColor">#000000</color>
+</resources>

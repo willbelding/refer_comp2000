@@ -1,0 +1,15 @@
+<resources>
+    <!-- Scheme 1 Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/scheme1PrimaryColor</item>
+        <item name="colorSecondary">@color/scheme1SecondaryColor</item>
+        <item name="android:colorBackground">@color/scheme1ThirdColor</item>
+    </style>
+
+    <!-- Scheme 2 Theme -->
+    <style name="AppTheme.Scheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/scheme2PrimaryColor</item>
+        <item name="colorSecondary">@color/scheme2SecondaryColor</item>
+        <item name="android:colorBackground">@color/scheme2ThirdColor</item>
+    </style>
+</resources>

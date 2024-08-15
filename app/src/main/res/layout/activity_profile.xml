@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/scheme1PrimaryColor">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@android:color/transparent">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ttfors"
+        android:text="SERVE CLUB"
+        android:textAlignment="center"
+        android:textColor="@color/scheme1PrimaryColor"
+        android:textSize="@dimen/title"
+        android:background="@color/scheme1SecondaryColor" />
+
+    <TextView
+        android:id="@+id/mainheadingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textAlignment="center"
+        android:textColor="@color/scheme1SecondaryColor"
+        android:textSize="@dimen/h4"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:fontFamily="@font/ttfors" />
+
+    <!-- Buttons with equal weight to distribute space evenly -->
+    <Button
+        android:id="@+id/manageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANAGE BOOKINGS"
+        android:textSize="17sp"
+        android:backgroundTint="@color/scheme1SecondaryColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <Button
+        android:id="@+id/myprofileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY PROFILE"
+        android:textSize="17sp"
+        android:backgroundTint="@color/scheme1SecondaryColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textSize="17sp"
+        android:backgroundTint="@color/scheme1SecondaryColor"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+</FrameLayout>

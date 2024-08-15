@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "542984914044",
+    "project_id": "tennisapp-dd3e3",
+    "storage_bucket": "tennisapp-dd3e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542984914044:android:1cfecfdf6a6529674b75f9",
+        "android_client_info": {
+          "package_name": "com.example.wb_tennis_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSK_71CJgANOt4YMAIJ-Tv7pyZqiGjnOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

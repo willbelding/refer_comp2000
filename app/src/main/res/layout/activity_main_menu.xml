@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/scheme1ThirdColor">
+
+    <!-- Content Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:background="@android:color/transparent">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ttfors"
+            android:text="SERVE CLUB"
+            android:textAlignment="center"
+            android:textColor="@color/scheme1ThirdColor"
+            android:textSize="@dimen/title"
+            android:background="@color/scheme1SecondaryColor" />
+
+        <TextView
+            android:id="@+id/mainheadingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME!"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/scheme1SecondaryColor"
+            android:textSize="@dimen/h4"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:fontFamily="@font/ttfors" />
+
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Serve Club! Browse our available courts and complete a booking!"
+            android:textAlignment="center"
+            android:textColor="@color/scheme1SecondaryColor"
+            android:textSize="@dimen/p2"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"
+            android:fontFamily="@font/ttfors" />
+
+        <!-- Buttons with equal weight to distribute space evenly -->
+        <Button
+            android:id="@+id/courtListButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="ABOUT US"
+            android:textColor="@color/scheme1SecondaryColor"
+            android:textSize="17sp"
+            android:backgroundTint="@color/scheme1PrimaryColor"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp" />
+
+        <Button
+            android:id="@+id/bookingButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="BOOK"
+            android:textColor="@color/scheme1SecondaryColor"
+            android:textSize="17sp"
+            android:backgroundTint="@color/scheme1PrimaryColor"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="PROFILE"
+            android:textColor="@color/scheme1SecondaryColor"
+            android:textSize="17sp"
+            android:backgroundTint="@color/scheme1PrimaryColor"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</FrameLayout>
+

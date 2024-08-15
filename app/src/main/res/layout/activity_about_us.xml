@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:backgroundTint="@color/scheme1PrimaryColor">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ttfors"
+            android:text="SERVE CLUB"
+            android:textAlignment="center"
+            android:textColor="@color/scheme1ThirdColor"
+            android:textSize="@dimen/title"
+            android:background="@color/scheme1SecondaryColor" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Company Name -->
+            <TextView
+                android:id="@+id/textViewCompanyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="ABOUT US"
+                android:fontFamily="@font/ttfors"
+                android:textSize="24sp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/scheme1ThirdColor"/>
+
+
+            <TextView
+                android:id="@+id/textViewMission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Facilities"
+                android:fontFamily="@font/ttfors_subheading"
+                android:textColor="@color/scheme1ThirdColor"
+                android:textSize="20sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewMissionContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serve Club offers a wide range courts for you to use! We have 2 Hard courts and 4 Artificial Grass courts for you to use all year round, and we also have 4 Grass courts for you to enjoy over the summer time! So what are you waiting for? Get booking!"
+                android:textSize="16sp"
+                android:fontFamily="@font/ttfors_text"
+                android:textColor="@color/scheme2ThirdColor"
+                android:paddingBottom="16dp" />
+
+            <!-- Vision Statement -->
+            <TextView
+                android:id="@+id/textViewVision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Availability"
+                android:fontFamily="@font/ttfors_subheading"
+                android:textColor="@color/scheme1ThirdColor"
+                android:textSize="20sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/textViewVisionContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In order to book a court, you will need to have an account with us. Also if you want to book a Grass court, you will need to do so for the months of June, July, and August as Grass courts are not available outside of these months."
+                android:textSize="16sp"
+                android:fontFamily="@font/ttfors_text"
+                android:textColor="@color/scheme2ThirdColor"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/textViewClosing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOW...YOUR SERVE! BOOK NOW!"
+                android:fontFamily="@font/ttfors_subheading"
+                android:textColor="@color/scheme1ThirdColor"
+                android:textSize="20sp"
+                android:paddingBottom="8dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
